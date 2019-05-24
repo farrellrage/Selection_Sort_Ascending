@@ -5,14 +5,14 @@
 //	in the array.
 //	Every pass begins 
 //------------------------------------------------------------------------------
-#ifndef SelectionSort_Ascending_h
-#define SelectionSort_Ascending_h
+#ifndef Selection_Sort_Ascending_h
+#define Selection_Sort_Ascending_h
 
-#include "Standards.h"
-#include "StandardHelperFunctions.h"
+#include "Main.h"
+#include "Standard_Helper_Functions.h"
 
 template <typename type>
-void SelectionSort_Ascending(type data[], int length)
+void SelectionSortAscending(type data[], int length)
 {
 	int smallestIndex;
 	type temp;
@@ -55,4 +55,4 @@ void SelectionSort_Ascending(type data[], int length)
 	} // !for
 } // !SelectionSort_Ascending
 
-#endif // !SelectionSort_Ascending_h
+#endif // !Selection_Sort_Ascending_h
